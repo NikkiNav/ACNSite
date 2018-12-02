@@ -1,25 +1,33 @@
 import React, { Component } from 'react';
-import logo from './logo.svg';
 import './App.css';
+import handwrittenName from './img/acnsig_sm.png';
 
 class App extends Component {
+
   render() {
+
     return (
       <div className="App">
-        <header className="App-header">
-          <img src={logo} className="App-logo" alt="logo" />
-          <p>
-            Edit <code>src/App.js</code> and save to reload.
-          </p>
-          <a
-            className="App-link"
-            href="https://reactjs.org"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            Learn React
-          </a>
+        <header className="header-menu">
+          <div className="burger-holder">
+            <div className = "burger-bar"></div>
+            <div className = "burger-bar"></div>
+            <div className = "burger-bar"></div>
+          </div>
         </header>
+
+        <div className="content">
+        
+          <div className="name-and-link-holder">
+            <img height="800px" alt="handwritten-name" className="handwritten-name" src={ handwrittenName } />
+            <a href="#">CV</a>
+          </div>
+        </div>
+
+        <div className="footer">
+              <a href="#">Contact</a>
+        </div>
+
       </div>
     );
   }
