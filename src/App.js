@@ -20,12 +20,14 @@ class App extends Component {
         
           <div className="name-and-link-holder">
             <img height="800px" alt="handwritten-name" className="handwritten-name" src={ handwrittenName } />
-            <a href="#">CV</a>
           </div>
         </div>
 
-        <div className="footer">
-              <a href="#">Contact</a>
+        <div className="menu">
+            <ul>
+            <li><a href="#">CV</a></li>
+            <li><a href="#">Contact</a></li>
+            </ul>
         </div>
 
       </div>
