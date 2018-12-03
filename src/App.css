@@ -68,29 +68,28 @@ a:hover {
   background-size: cover;
 }
 
-.name-and-link-holder {
-  width: 35%;
+.name-holder {
   background-color: rgba(299,299,299,0.55);
-  position: absolute;
-  top: 675px;
-  left: 60%;
+  position: relative;
+  top: 625px;
+  width: 475px;
+  margin-right: 9%;
+  margin-left: auto;
   padding-bottom: 10px;
 }
 
 @media only screen and (max-width: 768px) {
     /* For mobile phones: */
-    .name-and-link-holder {
-        top: 620px;
+    .name-holder {
+        top: 600px;
         left: 0;
         width: 100%;
     }
 }
 
-.name-and-link-holder img {
+.name-holder img {
   width: 100%;
-  height: auto;
 }
-
 
 .menu {
   margin-top: 20px;

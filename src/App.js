@@ -5,7 +5,6 @@ import handwrittenName from './img/acnsig_sm.png';
 class App extends Component {
 
   render() {
-
     return (
       <div className="App">
         <header className="header-menu">
@@ -17,9 +16,8 @@ class App extends Component {
         </header>
 
         <div className="content">
-        
-          <div className="name-and-link-holder">
-            <img height="800px" alt="handwritten-name" className="handwritten-name" src={ handwrittenName } />
+          <div className="name-holder">
+            <img alt="handwritten-name" className="handwritten-name" src={ handwrittenName } />
           </div>
         </div>
 
