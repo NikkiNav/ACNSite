@@ -3,7 +3,7 @@ import './App.css';
 import handwrittenName from './img/acnsig_sm.png';
 
 class App extends Component {
-
+  // eslint-disable-next-line
   render() {
     return (
       <div className="App">
@@ -22,7 +22,7 @@ class App extends Component {
         </div>
 
         <div className="menu">
-            <ul>
+            <ul> 
             <li><a href="#">CV</a></li>
             <li><a href="#">Contact</a></li>
             </ul>
