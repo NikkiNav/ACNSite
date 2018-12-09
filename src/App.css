@@ -71,7 +71,7 @@ a:hover {
 .name-holder {
   background-color: rgba(299,299,299,0.55);
   position: relative;
-  top: 625px;
+  top: 525px;
   width: 475px;
   margin-right: 9%;
   margin-left: auto;
@@ -81,7 +81,7 @@ a:hover {
 @media only screen and (max-width: 768px) {
     /* For mobile phones: */
     .name-holder {
-        top: 600px;
+        top: 400px;
         left: 0;
         width: 100%;
     }
